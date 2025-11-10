@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="kahmeng - A leader, photographer, videographer, video editor, graphic designer, and Computer Science student. View my portfolio and projects.">
+    <meta name="keywords" content="portfolio, developer, designer, videographer, computer science">
+    <meta name="author" content="Kah Meng">
+    <meta property="og:title" content="kahmeng">
+    <meta property="og:description" content="Discover my projects, skills, and experience in technology and creative design.">
+    <meta property="og:type" content="website">
+
+    <title>kahmeng's portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QNE0W6D1BE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QNE0W6D1BE');
+    </script>
+</head>
+<body>
+    <div class="flex min-h-screen flex-col">
+        <!-- HEADER -->
+        <header id="header" class="sticky top-0">
+            <div class="container">
+                <a href="#home" class="logo">kahmeng</a>
+                <nav class="hidden-mobile">
+                    <ul>
+                        <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+                        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                        <li><a href="#awards" class="nav-link" data-section="awards">Awards</a></li>
+                        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                        <li><a href="#photos" class="nav-link" data-section="photos">Photos</a></li>
+                        <li><a href="#videos" class="nav-link" data-section="videos">Videos</a></li>
+                        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center gap-4">
+                    <div class="social-links hidden-mobile">
+                        <a href="https://www.instagram.com/kahmeng.png" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/kahmeng15" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kahmeng15" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@kahmeng" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu" id="mobile-menu-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu" id="mobile-menu">
+            <nav class="mobile-menu-nav">
+                <ul>
+                    <li></li>
+                    <li><a href="#home" class="mobile-nav-link" data-section="home">Home</a></li>
+                    <li><a href="#about" class="mobile-nav-link" data-section="about">About</a></li>
+                    <li><a href="#skills" class="mobile-nav-link" data-section="skills">Skills</a></li>
+                    <li><a href="#projects" class="mobile-nav-link" data-section="projects">Projects</a></li>
+                    <li><a href="#awards" class="mobile-nav-link" data-section="awards">Awards</a></li>
+                    <li><a href="#experience" class="mobile-nav-link" data-section="experience">Experience</a></li>
+                    <li><a href="#photos" class="mobile-nav-link" data-section="photos">Photos</a></li>
+                    <li><a href="#videos" class="mobile-nav-link" data-section="videos">Videos</a></li>
+                    <li><a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a></li>
+                    <li>
+                        <div class="mobile-menu-socials">
+                            <a href="https://www.instagram.com/kahmeng.png" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/kahmeng15" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kahmeng15" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@kahmeng" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <main class="flex-1">
+            <!-- HOME SECTION -->
+            <section id="home" class="py-24 container">
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <h1>
+                            <span class="hero-title-main">kahmeng</span>
+                            <span class="hero-title-sub">Making change, big and small, in this ever-growing technical and digital world</span>
+                        </h1>
+                        <p class="text-lg text-muted-foreground">
+                            Computer Science Student at Universiti Putra Malaysia Sarawak
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="button button-lg">
+                                Contact Me
+                            </a>
+                            <a href="#projects" class="button button-secondary button-lg">
+                                View My Work
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-image-bg"></div>
+                        <img src="assets/profile.jpg" alt="Profile picture" loading="lazy">
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- ABOUT SECTION -->
+            <section id="about" class="py-24 bg-card">
+                <div class="container">
+                    <div class="about-container">
+                        <div class="about-content">
+                            <h2>About Me</h2>
+                            <p class="text-lg text-muted-foreground">
+                                A leader, photographer, videographer, video editor, graphic designer, event technical crew, and a computer science student. I’ve been involved with various programs since 2019, from internal celebrations to community projects.
+
+                            </p>
+                            <p class="text-lg text-muted-foreground">
+                                I've collaborated with remarkable people, managed multiple projects simultaneously, and demonstrated leadership across diverse teams. Whether it's technical projects or creative endeavors, I bring passion, precision, and dedication to everything I do.
+                            </p>
+                            <p class="text-lg text-muted-foreground">
+                                My work spans across various places from designing systems and managing events to creating visual content and leading initiatives. I believe in the power of technology and creativity to make meaningful change.
+                            </p>
+                        </div>
+                        <div class="about-values card">
+                            <h3 class="mb-4">My Values</h3>
+                            <ul>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                    <span>Leadership</span>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                    <span>Collaboration</span>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                    <span>Teamwork</span>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                    <span>Responsibility</span>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                    <span>Accountability</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- SKILLS SECTION -->
+            <section id="skills" class="py-24">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>My Skillset</h2>
+                        <p>A versatile collection of tools and technologies I use to bring ideas to life.</p>
+                    </div>
+                    <div class="grid grid-2">
+                        <div class="card">
+                            <h3 class="card-title">Technical Skills</h3>
+                            <div class="card-content flex flex-wrap gap-2">
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">code</span>
+                                    C++
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">router</span>
+                                    Computer Networking (Cisco)
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">language</span>
+                                    HTML
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">coffee</span>
+                                    Java
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">database</span>
+                                    MySQL
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">terminal</span>
+                                    Visual Basic GUI
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">memory</span>
+                                    Assembly Language
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">smart_toy</span>
+                                    Python
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">gamepad</span>
+                                    Unity
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">directions_boat</span>
+                                    Docker
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">dns</span>
+                                    Firebase
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">security</span>
+                                    Network Security
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="card-title">Creative Skills</h3>
+                            <div class="card-content flex flex-wrap gap-2">
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">movie_creation</span>
+                                    Adobe After Effects
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">draw</span>
+                                    Adobe Illustrator
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">menu_book</span>
+                                    Adobe InDesign
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">photo_library</span>
+                                    Adobe Lightroom Classic
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">compare</span>
+                                    Adobe Photoshop
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">view_timeline</span>
+                                    Adobe Premiere Pro
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">wall_art</span>
+                                    Canva
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">view_timeline</span>
+                                    Final Cut Pro
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">table_chart</span>
+                                    Microsoft Excel
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">slideshow</span>
+                                    Microsoft Powerpoint
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">description</span>
+                                    Microsoft Word
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">live_tv</span>
+                                    OBS
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">photo_camera</span>
+                                    Photography
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">videocam</span>
+                                    Videography
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">volume_up</span>
+                                    Technical Audio
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">dvr</span>
+                                    Technical Broadcasting
+                                </span>
+                                <span class="badge">
+                                    <span class="material-symbols-outlined">brightness_7</span>
+                                    Technical Lighting
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- PROJECTS SECTION -->
+            <section id="projects" class="py-24 bg-card">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Projects &amp; Portfolio</h2>
+                        <p>Here are some of the projects I'm proud to have worked on.</p>
+                    </div>
+                    <div class="grid grid-2">
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="assets/project-wordsfromthegraduates.jpg" alt="A person speaking towards a camera">
+                                <h3 class="card-title">Words from the Graduates Documentary</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-sm text-muted-foreground"> 
+                                    Produced a heartfelt documentary featuring students reflecting on their secondary school journeys and cherished memories. The goal was to capture the essence of their experiences 
+                                    and the impact of education on personal growth. This project involved conducting interviews and editing footage to craft a compelling narrative that celebrates achievements and 
+                                    milestones. Presented during the REAL Cheras Secondary Graduation Ceremony 2024, the documentary stands as an inspiring tribute to the graduate's dedication and growth.
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    Produced my myself with the help of Justin Chan, Danielle Ng and Mr. Mackenzie Yap.
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="badge"><span class="material-symbols-outlined">view_timeline</span> Adobe Premiere Pro</span>
+                                    <span class="badge"><span class="material-symbols-outlined">videocam</span> Videography</span>
+                                    <span class="badge"><span class="material-symbols-outlined">movie</span> Video Editing</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="assets/project-juniorconcert.jpg" alt="The stage viewed from the technical room">
+                                <h3 class="card-title">REAL Cheras Primary Graduation and Concert</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-sm text-muted-foreground">
+                                    For this graduation ceremony and concert, I managed all technical aspects, including audio and lighting systems, to ensure a seamless event. Working closely with the program 
+                                    director and teachers, I coordinated equipment setup and troubleshooting, guaranteeing smooth performances and speeches. The event featured multiple microphones and a  
+                                    LED lighting system to create an engaging stage experience.
+                                </p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="badge"><span class="material-symbols-outlined">volume_up</span> Audio Technical</span>
+                                    <span class="badge"><span class="material-symbols-outlined">brightness_7</span> Lighting Technical</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="assets/project-sulam.jpeg" alt="Dean, lectureres, university and school students posing for a group photo">
+                                <h3 class="card-title">SULAM @ YouthGen Program</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-sm text-muted-foreground">
+                                    SULAM (Service Learning Malaysia-University for Society) is a national initiative to promote volunteerism and community service among university students. Our class focused on 
+                                    youth digital development at SMK Tatau, Bintulu, Sarawak, teaching computer basics, AI tools, graphic design, and teamwork. Over two days, 40 secondary students participated in 
+                                    hands-on activities and learning sessions led by UPMS computer science students.
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    Organized by the diploma students in computer science with myself as the program director, Nur Syazira as the deputy program director, program advisor Dr. Nurul Nadwa and the entire organising commitee.
+                                </p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="badge"><span class="material-symbols-outlined">explore</span> Program Direction</span>
+                                    <span class="badge"><span class="material-symbols-outlined">people</span> Youth Development</span>
+                                    <span class="badge"><span class="material-symbols-outlined">groups</span> Leadership</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="assets/project-mobilelegends.jpg" alt="A person looking at a broadcast multiviewer screen">
+                                <h3 class="card-title">Mobile Legends: Legends Unite</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-sm text-muted-foreground">
+                                    Led the technical broadcast production for this Hotlink sponsored esports competition, overseeing live streaming, camera operations, audio mixing, and visual effects. Directed a team of 
+                                    technical crew, including camera operators, commentators, graphics designers, and game specialists, to deliver a professional viewing experience both in-person and online. Utilized 
+                                    PTZ cameras, a Blackmagic ATEM Television Studio HD8, MIDAS M32 audio mixer, and OBS for seamless live streaming. 
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    Lead by myself and assisted by Taufeq and Javier. Supported by En. Fazdlizan and En. Iqbal from the Infocomm Development Centre (ICT Department) and En. Andison from the Student Management Office.
+                                </p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="badge"><span class="material-symbols-outlined">live_tv</span> Broadcast Directing</span>
+                                    <span class="badge"><span class="material-symbols-outlined">dvr</span> Blackmagic Broadcast Switcher</span>
+                                    <span class="badge"><span class="material-symbols-outlined">instant_mix</span> MIDAS M32 Mixer</span>
+                                    <span class="badge"><span class="material-symbols-outlined">tv</span> Technical Visual</span>
+                                    <span class="badge"><span class="material-symbols-outlined">volume_up</span> Technical Audio</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="assets/project-SMARHATS.jpg" alt="A diagram of the Smart Rainwater Harvesting Tank System">
+                                <h3 class="card-title">Smart Rainwater Harvesting Tank System (SMARHATS)</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-sm text-muted-foreground">
+                                    SMARHATS is an IoT-based system idea designed to improve water conservation and quality monitoring for Malaysian households. It uses sensors to track water levels, pH, and temperature, 
+                                    automates drainage, and provides real-time alerts via a mobile app. The project, simulated in Packet Tracer, demonstrates efficient, sustainable water management, though challenges 
+                                    include initial costs and technical complexity. 
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    A networking project created by myself, Qaiyyum and Janarrtha Rao
+                                </p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="badge"><span class="material-symbols-outlined">router</span>IoT</span>
+                                    <span class="badge"><span class="material-symbols-outlined">javascript</span>JavaScript</span>
+                                    <span class="badge"><span class="material-symbols-outlined">router</span>Cisco Packet Tracer</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="assets/project-MEGALO.jpg" alt="The landing page of Megalo Empire Animal Clinic Website">
+                                <h3 class="card-title">Megalo Empire Animal Clinic Website</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-sm text-muted-foreground"> 
+                                    This web development project, completed as part of a group coursework, involved collaborating with a local veterinary clinic to create a health-focused website. We gathered 
+                                    client requirements, designed user-friendly UI/UX, implemented responsive and accessible features, and refined the site based on feedback. The project strengthened our technical 
+                                    skills and teamwork through real-world client engagement. 
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    A web project by myself, Qaiyyum, Normaisarah and Rabiatul.
+                                </p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="badge"><span class="material-symbols-outlined">language</span> HTML</span>
+                                    <span class="badge"><span class="material-symbols-outlined">code</span> PHP</span>
+                                    <span class="badge"><span class="material-symbols-outlined">palette</span> CSS</span>
+                                    <span class="badge"><span class="material-symbols-outlined">javascript</span> JavaScript</span>
+                                    <span class="badge"><span class="material-symbols-outlined">database</span> MySQL</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="assets/project-letscreate.jpeg" alt="A presenter speaking in an online webinar with slides">
+                                <h3 class="card-title">"Let's Create! Jom Buat Video" Video creation basics webinar</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-sm text-muted-foreground">
+                                    Hosted a webinar to teach the fundamentals of video editing, covering essential techniques, tools, and best practices for creating engaging content. Participants learned about video 
+                                    capture, editing workflows, visual storytelling, and practical tips to enhance their projects. Organized by the College Representative Council of Sri Rajang College, the program 
+                                    aimed to equip students with valuable skills beyond the academic curriculum. 
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    This webinar features myself as the main presenter, together with the deputy head of digitalization and
+                                    corporate communications, Stephanie Ngu, as the co-presenter.
+                                </p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="badge"><span class="material-symbols-outlined">movie</span> Video Editing</span>
+                                    <span class="badge"><span class="material-symbols-outlined">school</span> Education</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="assets/project-collegemagazine.jpg" alt="A group of people posing with the college magazine">
+                                <h3 class="card-title">"Cerita, Citra and Cita Mahasiswa" Sri Rajang College Magazine</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-sm text-muted-foreground">
+                                    This first edition of the Sri Rajang College magazine highlights student stories, images, and aspirations. Our editorial team compiled photos and articles from event organizers and 
+                                    writers, ensuring accuracy and quality through multiple review sessions. The magazine, published for the 49th Convocation Ceremony, preserves memories and inspires current and future 
+                                    generations. 
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    The editorial team includes myself as the head editor, followed by the deputy head editor, Stephanie Ngu, proof readers, writers and photographers.
+                                </p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="badge"><span class="material-symbols-outlined">menu_book</span> Adobe InDesign</span>
+                                    <span class="badge"><span class="material-symbols-outlined">draw</span> Adobe Illustrator</span>
+                                    <span class="badge"><span class="material-symbols-outlined">palette</span> Graphic Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- AWARDS SECTION -->
+            <section id="awards" class="py-24">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Awards &amp; Recognition</h2>
+                        <p>Achievements and recognitions throughout my journey.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-8">Featured Awards</h3>
+                        <div class="grid grid-2 mb-12">
+                            <div class="card">
+                                <div class="award-image-container">
+                                    <img src="assets/award-srirajang.jpg" alt="A person receiving an award" class="award-image">
+                                    <div class="award-caption">Award presented by Dr. Tengku Sharifah Marliza binti Tengku Azmi, college principal accompanied by Mr. Fauzie Bin Mohamad, the college assistant administrative officer</div>
+                                </div>
+                                <div class="flex items-start gap-4">
+                                    <div>
+                                        <div class="text-sm font-mono text-muted-foreground">2025</div>
+                                        <h3 class="card-title">Sri Rajang Award</h3>
+                                        <p class="text-sm text-muted-foreground">Sri Rajang College Annual Award Ceremony 2025</p>
+                                            <p class="text-sm text-muted-foreground">
+                                                Awarded for outstanding leadership and dedication to college activities and programs. Recognizes those who empower others and contribute significantly to the success 
+                                                of the college representative council and event organizing committees.
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="award-image-container">
+                                    <img src="assets/award-penolongdendaftarkanan.JPG" alt="A person receiving an award" class="award-image">
+                                    <div class="award-caption">Award presented by Ms. Rosidah binti Basir the college senior assistant registrar accompanied by Ms. Rina Farida binti Osman, college fellow</div>
+                                </div>
+                                <div class="flex items-start gap-4">
+                                    <div>
+                                        <div class="text-sm font-mono text-muted-foreground">2024</div>
+                                        <h3 class="card-title">Senior Assistant Registrar Special Award</h3>
+                                        <p class="text-sm text-muted-foreground">Sri Rajang College Annual Award Ceremony 2024</p>
+                                            <p class="text-sm text-muted-foreground">
+                                                Presented by the Senior Assistant Registrar to individuals who demonstrate excellence and commitment in college participation and contributions.
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="award-image-container">
+                                    <img src="assets/award-techinnovation.jpg" alt="A person receiving an award" class="award-image">
+                                    <div class="award-caption">Award presented by Mr. Cheli Tamilselvam, campus principal</div>
+                                </div>
+                                <div class="flex items-start gap-4">
+                                    <div>
+                                        <div class="text-sm font-mono text-muted-foreground">2023</div>
+                                        <h3 class="card-title">Tech Innovation Leadership Award</h3>
+                                        <p class="text-sm text-muted-foreground">REAL Cheras Secondary School Graduation Ceremony 2023</p>
+                                            <p class="text-sm text-muted-foreground">
+                                                Recognizes outstanding leadership and contributions in technology, including managing technical teams for events and enhancing the school's digital media presence.
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="award-image-container">
+                                    <img src="assets/award-sulam.jpg" alt="A silver medal with the academic poster in the background" class="award-image">
+                                    <div class="award-caption">Medal infront of the academic poster presented at UPM Serdang</div>
+                                </div>
+                                <div class="flex items-start gap-4">
+                                    <div>
+                                        <div class="text-sm font-mono text-muted-foreground">2025</div>
+                                        <h3 class="card-title">Silver Medal - SULAM@UPM Carnival</h3>
+                                        <p class="text-sm text-muted-foreground">Poster/Oral Competition, 7th International Putra InnoCreative Carnival in Teaching and Learning (I-PICTL2025)</p>
+                                            <p class="text-sm text-muted-foreground">
+                                                Awarded to projects demonstrating exceptional dedication and impact in community service and volunteerism through the SULAM program. Recognizes the "SULAM @ YouthGen" 
+                                                initiative at SMK Tatau, Bintulu, Sarawak, led by UPMS computer science diploma students and supported by the organizing committee and advisors.
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-6">Other Recognitions</h3>
+                        <div class="grid grid-2 mb-12">
+                            <div class="accordion" id="recognitions-accordion-1">
+                                <div class="accordion-item">
+                                    <div class="accordion-item-header">
+                                        <div>
+                                            <div class="accordion-item-title">Special College Fellow Award (Talent)</div>
+                                            <div class="accordion-item-subtitle">Sri Rajang College Annual Award Ceremony 2025</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2025</div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-item-header">
+                                        <div>
+                                            <div class="accordion-item-title">Service Award</div>
+                                            <div class="accordion-item-subtitle">Sri Rajang College Annual Award Ceremony 2025</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2025</div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-item-header">
+                                        <div>
+                                            <div class="accordion-item-title">Service Award</div>
+                                            <div class="accordion-item-subtitle">Sri Rajang College Annual Award Ceremony 2024</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2024</div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-item-header">
+                                        <div>
+                                            <div class="accordion-item-title">Vice Chancellor's List (Academic Excellence for Semester 1, 3, 5)</div>
+                                            <div class="accordion-item-subtitle">Faculty of Humanities, Management and Science, Universiti Putra Malaysia Sarawak</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2023-2025</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion" id="recognitions-accordion-2">
+                                <div class="accordion-item">
+                                    <div class="accordion-item-header">
+                                        <div>
+                                            <div class="accordion-item-title">Dean's List (Academic Excellence for Semester 2, 4)</div>
+                                            <div class="accordion-item-subtitle">Faculty of Humanities, Management and Science, Universiti Putra Malaysia Sarawak</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2024</div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-item-header">
+                                        <div>
+                                            <div class="accordion-item-title">Art & Design Award</div>
+                                            <div class="accordion-item-subtitle">REAL Cheras REAL Excellence Awards 2019</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2019</div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-item-header">
+                                        <div>
+                                            <div class="accordion-item-title">Enthusiasm Character Award</div>
+                                            <div class="accordion-item-subtitle">REAL Cheras Secondary School</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2018</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- EXPERIENCE SECTION -->
+            <section id="experience" class="py-24 bg-card">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Leadership &amp; Experience</h2>
+                        <p>A timeline of my professional growth, key roles, and accomplishments.</p>
+                    </div>
+                    <div class="max-w-3xl mx-auto">
+                        <div class="experience-intro">
+                            <strong>Creating Impact and Change for Now and the Future</strong>
+                            <p><em>Small actions can also have a big impact</em></p>
+                                <p>
+                                    I believe that whatever I do, it's not just about my growth, but also the growth of others. My approach to leadership is rooted in empowering others and fostering a collaborative 
+                                    environment. I strive to turn inconveniences into opportunities, set clear guidelines, and ensure that processes are as efficient as possible. Change doesn't have to be grand or 
+                                    visible, sometimes the smallest overlooked details create the biggest silent impacts. By focusing on thoughtful details and supporting those around me, I aim to create lasting, 
+                                    positive change for both individuals and the community. Every experience, whether big or small, has taught me the value of teamwork, adaptability, and the importance of uplifting 
+                                    others to achieve shared goals.
+                                </p>
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-6">Career & Education</h3>
+                        <div class="accordion mb-8" id="education-accordion">
+                            <div class="accordion-item">
+                                <div class="accordion-item-header">
+                                    <div class="accordion-item-icon">
+                                        <span class="material-symbols-outlined">security</span>
+                                    </div>
+                                    <div>
+                                        <div class="accordion-item-title">Security Engineering Intern</div>
+                                        <div class="accordion-item-subtitle">Data Alliance Shd. Bhd.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item-date">2025</div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-item-header">
+                                    <div class="accordion-item-icon">
+                                        <span class="material-symbols-outlined">domain</span>
+                                    </div>
+                                    <div>
+                                        <div class="accordion-item-title">Diploma in Computer Science</div>
+                                        <div class="accordion-item-subtitle">Universiti Putra Malaysia Sarawak</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item-date">2023 - 2025</div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-item-header">
+                                    <div class="accordion-item-icon">
+                                        <span class="material-symbols-outlined">school</span>
+                                    </div>
+                                    <div>
+                                        <div class="accordion-item-title">Sijil Pelajaran Malaysia (SPM)</div>
+                                        <div class="accordion-item-subtitle">REAL Schools Cheras Campus</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item-date">2018 - 2023</div>
+                            </div>
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-6">Committee Positions</h3>
+                        <div class="accordion" id="experience-accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-trigger" data-accordion-item="exp-1">
+                                    <div class="accordion-item-header">
+                                        <div class="accordion-item-icon">
+                                            <span class="material-symbols-outlined">groups</span>
+                                        </div>
+                                        <div>
+                                            <div class="accordion-item-title">Head of Secretariat Affairs</div>
+                                            <div class="accordion-item-subtitle">College Representative Council, Sri Rajang College, Universiti Putra Malaysia Sarawak</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2024-2025</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </button>
+                                <div class="accordion-content" data-accordion-content="exp-1">
+                                    <img src="assets/exp-mpk.jpg" alt="Head of Secretariat Affairs" class="experience-image">
+                                    <p class="text-muted-foreground accordion-content-text">
+                                        As the Head of Secretariat Affairs, I was responsible for overseeing the planning and execution of a wide range of college events and activities. My role involved coordinating and 
+                                        supporting program directors from the initial concept to the final wrap-up, ensuring that every program ran smoothly and met its objectives. I empower program directors to lead 
+                                        their teams effectively, providing guidance, resources, and encouragement whenever needed.
+                                    </p>
+                                    <p class="text-muted-foreground accordion-content-text">
+                                        During my tenure, I noticed a lack of clear guidelines for internal documentation, which often led to confusion and inefficiencies. My first major initiative was to create 
+                                        templates and guideline documents to standardize the design and documentation process. This not only streamlined workflows but also made it easier for students to organize events 
+                                        efficiently and maintain consistency across programs. By improving these processes, I helped foster a culture of organization and accountability within the college community. 
+                                        I also worked closely with other council members to ensure that every event was inclusive, well-documented, and provided opportunities for personal growth and leadership development.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-trigger" data-accordion-item="exp-2">
+                                    <div class="accordion-item-header">
+                                        <div class="accordion-item-icon">
+                                            <span class="material-symbols-outlined">forum</span>
+                                        </div>
+                                        <div>
+                                            <div class="accordion-item-title">Head of Digitalization and Corporate Communication</div>
+                                            <div class="accordion-item-subtitle">College Representative Council, Sri Rajang College, Universiti Putra Malaysia Sarawak</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2024-2025</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </button>
+                                <div class="accordion-content" data-accordion-content="exp-2">
+                                    <img src="assets/exp-digicorp.jpg" alt="Head of Digitalization and Corporate Communication" class="experience-image">
+                                    <p class="text-muted-foreground accordion-content-text">
+                                        I worked closely with my deputy secretariat members, Stephanie Ngu and Eddy, to manage the college's digital presence and official 
+                                        event organization. Throughout our tenure, we established a stronger digital presence online, enhancing the college's visibility and engagement with students and the wider community. We 
+                                        successfully organized various events that promoted digital multimedia knowledge, providing additional skills and opportunities for students to grow.
+                                    </p>
+                                    <p class="text-muted-foreground accordion-content-text">
+                                        One of our proudest achievements was creating the first college magazine, which documented college events and activities for future generations. We also took responsibility for programs 
+                                        with official ceremonies, ensuring that protocols, scripts, seating arrangements, and technical aspects were handled professionally. By focusing on both the creative and logistical sides of 
+                                        event management, we helped elevate the college's reputation and fostered a sense of pride among students and staff. Our work not only improved communication and documentation but also 
+                                        inspired others to take initiative and contribute to the college's ongoing success.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-trigger" data-accordion-item="exp-3">
+                                    <div class="accordion-item-header">
+                                        <div class="accordion-item-icon">
+                                            <span class="material-symbols-outlined">folder</span>
+                                        </div>
+                                        <div>
+                                            <div class="accordion-item-title">Documentation and Data Management Unit</div>
+                                            <div class="accordion-item-subtitle">Student Association (College Level), Sri Rajang College, Universiti Putra Malaysia Sarawak</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2024-2025</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </button>
+                                <div class="accordion-content" data-accordion-content="exp-3">
+                                    <p class="text-muted-foreground accordion-content-text">
+                                        In the Documentation and Data Management Unit, I handled data management and documentation for the student association under Universiti Putra Malaysia Sarawak's Student Representative Council 
+                                        which governed and administered all programs organized by student associations in the university. 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-trigger" data-accordion-item="exp-4">
+                                    <div class="accordion-item-header">
+                                        <div class="accordion-item-icon">
+                                            <span class="material-symbols-outlined">diversity_3</span>
+                                        </div>
+                                        <div>
+                                            <div class="accordion-item-title">Deputy Head Prefect</div>
+                                            <div class="accordion-item-subtitle">Private Secondary Section, REAL Schools Cheras Campus</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2022</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </button>
+                                <div class="accordion-content" data-accordion-content="exp-4">
+\                                    <p class="text-muted-foreground accordion-content-text">
+                                        As Deputy Head Prefect, I assisted in leading the student prefect board and maintaining school discipline. My responsibilities included supporting the head prefect, organizing meetings, 
+                                        and helping to resolve conflicts among students. By promoting discipline and a positive school environment, I contributed to the overall wellbeing and success of the student body. This 
+                                        experience taught me the importance of responsibility, fairness, and teamwork in leadership roles.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <button class="accordion-trigger" data-accordion-item="exp-5">
+                                    <div class="accordion-item-header">
+                                        <div class="accordion-item-icon">
+                                            <span class="material-symbols-outlined">camera</span>
+                                        </div>
+                                        <div>
+                                            <div class="accordion-item-title">Head of Student Media Club</div>
+                                            <div class="accordion-item-subtitle">Private Secondary Section, REAL Schools Cheras Campus</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2024-2025</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </button>
+                                <div class="accordion-content" data-accordion-content="exp-5">
+                                    <img src="assets/exp-mediaclub.jpg" alt="Head of Student Media Club" class="experience-image">
+                                    <p class="text-muted-foreground accordion-content-text">
+                                        I led a team of photographers responsible for capturing and documenting every school event, resulting in a collection of over 100,000 photos. Our work ensured that each occasion was 
+                                        thoroughly covered and the images were used for marketing, reporting, and preserving memories.
+                                    </p>
+                                    <p class="text-muted-foreground accordion-content-text">
+                                        I established a streamlined workflow for organizing, editing, and curating all photos before publication. This approach maintained a high standard of quality and created an accessible, 
+                                        well-structured media archive for the school, making it easy to locate and share the best images.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-trigger" data-accordion-item="exp-6">
+                                    <div class="accordion-item-header">
+                                        <div class="accordion-item-icon">
+                                            <span class="material-symbols-outlined">celebration</span>
+                                        </div>
+                                        <div>
+                                            <div class="accordion-item-title">Teachers Day Celebration Main Organising Committee</div>
+                                            <div class="accordion-item-subtitle">Private Secondary Section, REAL Schools Cheras Campus</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2022</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </button>
+                                <div class="accordion-content" data-accordion-content="exp-6">
+                                    <img src="assets/exp-tdc.jpg" alt="Teachers Day Celebration Main Organising Committee" class="experience-image">
+                                    <p class="text-muted-foreground accordion-content-text">Organized the teacher's day celebration with Nadine, Tasha and Ravinah. Brainstorming and creating plans and activities to reward the teachers. This includes coordinating
+                                        with the entire school students and staff to ensure the event runs smoothly while everyone has fun and enjoy the celebration.
+                                    </p>
+                                    <p class="text-muted-foreground accordion-content-text">
+                                        As a member of the Teachers Day Celebration Main Organising Committee, I worked with Nadine, Tasha, and Ravinah to brainstorm and create plans and activities to 
+                                        reward the teachers. This included coordinating with the entire school students and staff to ensure the event ran smoothly and everyone enjoyed the celebration. 
+                                        Our efforts helped foster appreciation and strengthen the bonds between teachers and students. I learned how meaningful recognition and gratitude can be in building 
+                                        a supportive school culture.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-trigger" data-accordion-item="exp-7">
+                                    <div class="accordion-item-header">
+                                        <div class="accordion-item-icon">
+                                            <span class="material-symbols-outlined">crowdsource</span>
+                                        </div>
+                                        <div>
+                                            <div class="accordion-item-title">School Virtual Fundraising Project Main Organising Committee</div>
+                                            <div class="accordion-item-subtitle">Private Secondary Section, REAL Schools Cheras Campus</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item-date">2021</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </button>
+                                <div class="accordion-content" data-accordion-content="exp-7">
+                                    <p class="text-muted-foreground accordion-content-text">
+                                        Together with Feon, Ms Ebbie, Ms Emily, and Ms Shi Qi, I organized a virtual fundraising project to help raise funds for families and businesses affected by the COVID-19 
+                                        pandemic. We created a virtual choir and an esports tournament to attract donations from the public, leveraging digital platforms to reach a wider audience. The funds 
+                                        raised were then distributed to those in need, helping them get through the difficult times during the pandemic. This experience taught me the importance of adaptability,
+                                        teamwork, and community support in overcoming challenges. It was inspiring to see how collective effort and creativity could make a real difference in people's lives during 
+                                        a crisis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- FEATURED PHOTOS CAROUSEL SECTION -->
+            <section id="photos" class="py-24">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Featured Photography</h2>
+                        <p>A glimpse into my photography work and memorable moments.</p>
+                    </div>
+                    <div class="carousel-container" id="carousel-container">
+                        <div class="carousel-wrapper" id="carousel-wrapper">
+                            <!-- Slides will be dynamically loaded here -->
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-button carousel-prev" aria-label="Previous slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <button class="button button-secondary" id="view-all-photos">
+                            View All Photos
+                        </button>
+                        <button class="carousel-button carousel-next" aria-label="Next slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
+                    
+                    <div class="photography-description">
+                        <p class="description-stat"><strong>Over 100,000 photos captured and countless memories preserved.</strong></p>
+
+                        <p>I am formerly the Head of Digitalization and Corporate Communication Secretariat in the College Representative Council of Sri Rajang College, Universiti Putra Malaysia Sarawak. I manage all incoming photos from college-organized programs for documentation and publication on the college and university's social media pages, and sometimes in newspapers. A notable program I photographed was UPM's 48th Convocation, Session 1. Alongside that, I have documented many events within the college, university, and community programs such as longhouse visits.</p>
+
+                        <p>I was also the Head of the Media Club at REAL Cheras during my secondary education. I managed thousands of photos taken by my team of photographers, ensuring every event was properly documented and shared for marketing, reporting, and memory keeping purposes.</p>
+                        
+                        <p>I ensured all photos were properly organized, edited, and filtered before being published. This process helped keep an easy-to-navigate internal directory for school media while ensuring the best quality images were shared.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- FEATURED VIDEOS SECTION -->
+            <section id="videos" class="py-24">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Featured Videos</h2>
+                        <p>Explore my videography and video editing work.</p>
+                    </div>
+                    <div class="carousel-container" id="videos-carousel-container">
+                        <div class="carousel-wrapper" id="videos-carousel-wrapper">
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/9ielaxK8Gec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ag4i6TRH_V4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/wAodhcB2aNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/D7D6mX6Tm5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/eb09M6e80GA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/D_6b1yNkZnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/zjj3F6sU1_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/q_3O9Y_po30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/UmIVV8rbljM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/gI_fKZ8ki1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/cXWFJD1Y8QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/37-kpDz5HBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/xZndLurMWsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                            <div class="video-slide"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/bJAzRq28fGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-button carousel-prev-videos" aria-label="Previous video">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <a href="https://youtube.com/playlist?list=PL8cLoyxFU8Rfgn1-rWt1eIbEEkL_o77-7&si=cuGkvqVAF2kMWGnG" target="_blank" rel="noopener noreferrer" class="button button-secondary" id="view-all-videos">
+                            View All Videos
+                        </a>
+                        <button class="carousel-button carousel-next-videos" aria-label="Next video">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
+                    <div class="videos-description">
+                        <p class="description-stat"><strong>Capturing moments and creating videos with meaning, memories, and impact</strong></p>
+                        <p>I have edited and produced over 100 videos for various projects, ranging from promotional content to social media campaigns for college initiatives. Each project is an opportunity to refine my storytelling through motion, blending technical editing skills with creative vision to deliver impactful visual narratives.</p>
+                        <p>I take pride in projects that preserve important moments and celebrate meaningful occasions. One of my most cherished projects was creating a Teacher's Day celebration video in 2021, captured during the challenging lockdown period. It brought together messages and memories from students and teachers, serving as a digital gathering that celebrated the bonds built despite physical distance.</p>
+                        <p>Another significant project was producing an unscripted graduation video that authentically captured the emotions, reflections, and aspirations of graduates. Working without a script meant embracing spontaneity and genuine moments, resulting in a deeply personal tribute to their journey and the beginning of their next chapter.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- CONTACT SECTION -->
+            <section id="contact" class="py-24">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Get In Touch</h2>
+                        <p>Have a project in mind, want to collaborate, or just say hi? Drop me a line!</p>
+                    </div>
+                    <form id="contact-form" class="max-w-2xl mx-auto">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="form-error" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="form-error" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobile">Mobile</label>
+                            <input type="tel" id="mobile" name="mobile">
+                            <span class="form-error" id="mobile-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                            <span class="form-error" id="message-error"></span>
+                        </div>
+                        <div id="form-success" class="form-success" style="display: none;">
+                            Message sent! I'll get back to you soon.
+                        </div>
+                        <button type="submit" class="button button-lg">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#awards">Awards</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li><a href="https://www.instagram.com/kahmeng.png" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                            <li><a href="https://github.com/kahmeng15" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/kahmeng15" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a href="https://www.youtube.com/@kahmeng" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#projects">View My Work</a></li>
+                            <li><a href="#skills">My Skills</a></li>
+                            <li><a href="#contact">Get In Touch</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 kahmeng. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- IMAGE GRID MODAL -->
+    <div id="grid-modal" class="grid-modal hidden">
+        <div class="grid-modal-content">
+            <div class="grid-modal-header">
+                <h2>Featured Photos</h2>
+                <button class="grid-modal-close" aria-label="Close grid">&times;</button>
+            </div>
+            <div class="image-grid" id="image-grid">
+                <!-- Images will be loaded here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- FULLSCREEN IMAGE MODAL -->
+    <div id="fullscreen-modal" class="fullscreen-modal hidden">
+        <div class="fullscreen-modal-content">
+            <button class="fullscreen-modal-close" aria-label="Close fullscreen">&times;</button>
+            <div class="fullscreen-image-wrapper">
+                <img id="fullscreen-image" src="" alt="Fullscreen image">
+            </div>
+            <div class="fullscreen-footer">
+                <div id="fullscreen-caption" class="fullscreen-caption"></div>
+                <div class="fullscreen-controls">
+                    <button class="fullscreen-prev" aria-label="Previous image">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+                    <button class="fullscreen-next" aria-label="Next image">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+

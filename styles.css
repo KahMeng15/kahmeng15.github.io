@@ -1220,9 +1220,28 @@ textarea {
 }
 
 @media (max-width: 640px) {
+  /* Make accordion triggers larger and easier to tap on small screens */
   .accordion-trigger {
-    padding: 0.875rem 1rem;
-    font-size: 0.95rem;
+    padding: 1rem 1.25rem; /* larger hit area */
+    font-size: 1.05rem; /* slightly bigger text */
+    min-height: 56px; /* adhere to touch target guidance */
+  }
+
+  .accordion-trigger svg {
+    min-width: 1.5rem !important;
+    min-height: 1.5rem !important;
+  }
+
+  /* Slightly increase the icon block size so the visual balance remains */
+  .accordion-item-icon {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.6rem;
+  }
+
+  .accordion-item-icon svg {
+    width: 3rem;
+    height: 3rem;
   }
 }
 
@@ -1235,8 +1254,8 @@ textarea {
 }
 
 .accordion-trigger svg {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 20px;
+  height: 20px;
   transition: transform 300ms ease;
   color: hsl(var(--primary));
 }

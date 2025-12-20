@@ -863,16 +863,19 @@ section.container {
    ============================================ */
 
 .card {
+  position: relative;
   background-color: hsl(var(--card));
   border: 1px solid hsl(var(--border));
   border-radius: 0.625rem;
   padding: 1.5rem;
+  padding-bottom: 6rem;
   transition: all 300ms ease;
 }
 
 @media (max-width: 640px) {
   .card {
     padding: 1.25rem;
+    padding-bottom: 6rem;
   }
 }
 
@@ -919,6 +922,20 @@ section.container {
 
 .card-content {
   margin-bottom: 1rem;
+}
+
+.card-content .button {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .card-content .button {
+    bottom: 1.25rem;
+    left: 1.25rem;
+  }
 }
 
 .card-footer {
@@ -1093,6 +1110,10 @@ button svg, .button svg {
   flex-wrap: wrap;
 }
 
+.info {
+  margin-top: rem !important;
+}
+
 /* ============================================
    FORMS
    ============================================ */
@@ -1211,7 +1232,7 @@ textarea {
   border: none;
   cursor: pointer;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: normal;
   display: flex;
   justify-content: space-between;
   align-items: center;
